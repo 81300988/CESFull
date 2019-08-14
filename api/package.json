@@ -1,0 +1,40 @@
+{
+  "name": "ncvneit-api",
+  "version": "0.0.0",
+  "description": "east india trading company RESTful api services",
+  "main": "./index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://source.netcompany.com/tfs/CES/NCVNEIT/_git/NCVNEIT"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js controller/*.js middleware/*.js",
+    "preversion": "grunt eslint",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@scuba-squad/acceptable": "^1.0.4",
+    "@scuba-squad/transformation": "^1.0.0",
+    "@scuba-squad/validation": "^1.0.4",
+    "@scuba-squad/virtual-ext": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.14",
+    "neo4j-driver": "^1.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-scuba-squad": "^1.1.1",
+    "grunt": "^1.0.3",
+    "grunt-cli": "^1.2.0",
+    "grunt-eslint": "^22.0.0",
+    "grunt-todo": "^0.5.0"
+  }
+}

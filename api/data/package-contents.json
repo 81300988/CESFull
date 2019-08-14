@@ -1,0 +1,14 @@
+{
+  "WE": {
+    "name": "Weapon",
+    "multiplier": 1.2
+  },
+  "RE": {
+    "name": "Refrigerated goods",
+    "multiplier": 1.1
+  },
+  "AN": {
+    "name": "Live animals",
+    "multiplier": 1.25
+  }
+}

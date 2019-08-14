@@ -1,0 +1,6 @@
+{
+  "root": ["*.js"],
+  "controller": ["controller/**/*.js"],
+  "middleware": ["middleware/**/*.js"],
+  "util": ["util/**/*.js"]
+}

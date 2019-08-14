@@ -1,0 +1,13 @@
+{
+  "options": {
+    "title": "TODO",
+    "usePackage": true,
+    "file": "TODO.md"
+  },
+  "src": [
+    "*.js",
+    "controller/*.js",
+    "middleware/*.js",
+    "util/*.js"
+  ]
+}
